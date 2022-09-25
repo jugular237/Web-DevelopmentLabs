@@ -1,11 +1,18 @@
 body{
+    justify-content: space-between;
+}
+.top, .bottom{
     display: flex;
     justify-content: space-between;
 }
-.test1{
+.leftBlock{
+
+
     width: 25vw;
 }
-.test2{
+.rightBlock{
+
+
     width: 70vw;
 }
 .leftDiv1{
@@ -14,6 +21,7 @@ body{
     padding-right: 1vw;
     background-color:bisque;
     text-align: center;
+    height: 100%;
 }
 
 .rightDiv2{
@@ -22,6 +30,7 @@ body{
     min-height: 20vh;
     text-align: right;
     background-color: rgb(112, 160, 232);
+
 }
 
 .rightDiv3{
@@ -30,34 +39,38 @@ body{
     min-height: 60vh;
     text-align: center;
     background-color: rgb(155, 200, 225);
+    height: 100%;
 }
 
 .leftDiv4{
+    
     min-height: 20vh;
     padding-left: 1vw;
     padding-right: 1vw;
     text-align: center;
     background-color: rgb(120, 210, 120);
+    height: 100%;
 }
 
 .rightDiv5{
+    
     padding-left: 1vw;
     padding-right: 1vw;
     min-height: 20vh;
     text-align: left;
     background-color: rgb(112, 160, 232);
+    height: 100%;
 }
 
 .menulist{
-    display: flex;
-    flex-direction: column;
     margin-top: 1px;
     margin-left: 60vw;
 }
 
 .menulist li{
-    padding-right: 65vw;
+    list-style-type: none;
     padding-top: 1vh;
+    
 }
 
 .menulist li a{
