@@ -6,13 +6,9 @@ body{
     justify-content: space-between;
 }
 .leftBlock{
-
-
     width: 25vw;
 }
 .rightBlock{
-
-
     width: 70vw;
 }
 .leftDiv1{
@@ -43,7 +39,6 @@ body{
 }
 
 .leftDiv4{
-    
     min-height: 20vh;
     padding-left: 1vw;
     padding-right: 1vw;
@@ -53,13 +48,20 @@ body{
 }
 
 .rightDiv5{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-wrap:break-word;
     padding-left: 1vw;
     padding-right: 1vw;
     min-height: 20vh;
     text-align: left;
     background-color: rgb(112, 160, 232);
     height: 100%;
+}
+
+.rightDiv5 div{
+    width: 70vw;
 }
 
 .menulist{
@@ -96,9 +98,9 @@ body{
 #bottomHeader{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 5vh;
-    margin-left: 5 vw;
+    margin-left: 5vw;
     float: right;
-    width: 20vw;
+    width: 40vw;
     height: 10vh;
     display: flex;
     align-items: center;
